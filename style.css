@@ -1,0 +1,71 @@
+.todo-wrapper{
+    width: 500px;
+    margin: auto;
+
+}
+
+.todo-wrapper__tytle{
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    border-bottom: 2px grey solid;
+}
+
+.form-input{
+    border: 2px gray solid;
+    border-radius: 4px;
+}
+.form-input__tytle{
+    border-bottom: 2px grey solid;
+    padding: 10px;
+    background-color: beige;
+}
+.form-input__tytle>h3{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.form-input__form{
+    padding: 10px;
+}
+.form-input__submit-button{
+    background-color: cornflowerblue;
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 6px 3px;
+    margin-left: 10px;
+}
+.list-tytle{
+    font-family: sans-serif;
+}
+.list-element{
+    height: 52px;
+    border-top: 2px grey solid;
+}
+.list-element__index{
+    float: left;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.list-element__text{
+    float: left;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.list-element__button{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 10px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    font-size: 0.8em;
+    line-height: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.list-element__button_close{
+    background-color: crimson;
+}
+.list-element__button_up{
+    background-color: cornflowerblue;
+}
